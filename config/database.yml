@@ -1,0 +1,30 @@
+development:
+  host: <%= ENV['DB_HOST'] %>
+  adapter: <%= ENV['DB_ADAPTER'] %>
+  encoding: utf8
+  reconnect: false
+  database: <%= ENV['DB_NAME'] %>
+  pool: 5
+  username: <%= ENV['DB_USERNAME'] %>
+  password: <%= ENV['DB_PASSWORD'] %>
+
+test:
+  host: <%= ENV['DB_HOST'] %>
+  adapter: <%= ENV['DB_ADAPTER'] %>
+  encoding: utf8
+  reconnect: false
+  database: <%= ENV['DB_NAME'] %>
+  pool: 5
+  username: <%= ENV['DB_USERNAME'] %>
+  password: <%= ENV['DB_PASSWORD'] %>
+
+production:
+  host: <%= ENV['DB_HOST'] %>
+  adapter: <%= ENV['DB_ADAPTER'] %>
+  encoding: utf8
+  reconnect: false
+  database: <%= ENV['DB_NAME'] %>
+  pool: 5
+  username: <%= ENV['DB_USERNAME'] %>
+  password: <%= ENV['DB_PASSWORD'] %>
+
